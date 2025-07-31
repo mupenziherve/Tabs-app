@@ -1,10 +1,7 @@
-const Duties = () => {
-    const duties = {
-        
-
-    }
+import { FaAngleDoubleRight } from 'react-icons/fa';
+const Duties = ({ duties }) => {
   return (
-    <div>Duties</div>
+    <div>{duties.map}</div>
   )
-}
+};
 export default Duties
